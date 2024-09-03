@@ -1,20 +1,10 @@
-# Fake-News-Classification-Using-LSTM
-Introduction:
+# Prediction-of-Heart-Disease-using-Decision-Tree
+Objective: 
+The objective of this assignment is to apply Decision Tree Classification to a given dataset, analyse the performance of the model, and interpret the results. Tasks:
 
-News medium has become a channel to pass on the information of what's happening on world to the people living. Often people perceive whatever conveyed in the news to be true. There were circumstances where even the news channels acknowledged that their news is not true as they wrote. But some news have a significant impact not only to the people or government but also the economy. One news can shift the curves up and down depending on the emotions of people and political situation. It is important to identify the fake news from the real true news. The problem has been taken over and resolved with the help of Natural Language Processing tools which help us identify fake or true news based on the historical data. The news are now in safe hands !
-Dataset Description
-train.csv: A full training dataset with the following attributes:
-
-id: unique id for a news article
-
-title: the title of a news article
-
-author: author of the news article
-
-text: the text of the article; could be incomplete
-
-label: a label that marks the article as potentially unreliable
-
-1: unreliable
-
-0: reliable
+Data Preparation: Load the dataset into your preferred data analysis environment (e.g., Python with libraries like Pandas and NumPy).
+Exploratory Data Analysis (EDA): Perform exploratory data analysis to understand the structure of the dataset. Check for missing values, outliers, and inconsistencies in the data. Visualize the distribution of features, including histograms, box plots, and correlation matrices.
+Feature Engineering: If necessary, perform feature engineering techniques such as encoding categorical variables, scaling numerical features, or handling missing values.
+Decision Tree Classification: Split the dataset into training and testing sets (e.g., using an 80-20 split). Implement a Decision Tree Classification model using a library like scikit-learn. Train the model on the training set and evaluate its performance on the testing set using appropriate evaluation metrics (e.g., accuracy, precision, recall, F1-score, ROC-AUC).
+Hyperparameter Tuning: Perform hyperparameter tuning to optimize the Decision Tree model. Experiment with different hyperparameters such as maximum depth, minimum samples split, and criterion.
+Model Evaluation and Analysis: Analyse the performance of the Decision Tree model using the evaluation metrics obtained. Visualize the decision tree structure to understand the rules learned by the model and identify important features 
